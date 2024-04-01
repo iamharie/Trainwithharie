@@ -12,6 +12,7 @@ document.querySelector(".btn").addEventListener("click", function () {
   console.log(typeof gender);
   //   console.log(age, typeof age);
   //BMI Logic
+
   if (weight > 0 && weight < 100) {
     let x = weight * 28.5;
     document.querySelector(".calories").textContent = `Calories: ${x}/ day ~`;

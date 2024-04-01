@@ -1,39 +1,35 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-}
+} */
 .container {
-  width: 100%;
+  width: 90%;
 }
-main {
-  max-width: 800px; /* Adjust as needed */
+/* main {
+  max-width: 800px; 
   width: 100%;
   padding: 20px;
-  box-sizing: border-box; /* Ensures padding is included in width */
-  text-align: center; /* Aligns text content in center */
+  box-sizing: border-box; 
+  text-align: center; 
   margin-left: auto;
   margin-right: auto;
-}
+} */
 body {
   background-color: rgb(180, 180, 141);
-}
-
-p {
-  font-size: 2rem;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  text-align: center;
-  background-color: bisque;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .title {
-  font-size: 4rem;
+  /* width: 100%; */
+  font-size: 2rem;
   padding-top: 1%;
   padding-bottom: 1%;
   background-color: rgb(181, 114, 114);
   text-align: center;
 }
+
 img {
   padding-top: 1%;
   padding-bottom: 2%;
@@ -41,6 +37,15 @@ img {
   margin: auto;
   height: 30vh;
   width: 25vh;
+}
+.cal {
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(58, 56, 56);
+  width: 60%;
+  margin: 0 auto;
+  padding: 1px 0;
+  margin-bottom: 10px;
 }
 /* #form {
   background-color: aquamarine;
@@ -62,21 +67,42 @@ th,
 td {
   border: 1px solid;
 }
+
+.buttons {
+  padding-top: 15px;
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto); /*Adjust this value as needed*/
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
 .show-plans,
 .show-calories,
 .show-subscribe {
-  font-size: 1.1rem;
+  /* font-size: 1.1rem;
   font-weight: 800;
-  padding: 1rem 6rem;
-  margin: 1rem 1rem;
+  padding: 1rem 3rem;
+  margin: 0 auto;
   border: none;
   background-color: #fff;
   color: #444;
   border-radius: 500rem;
-  width: 150px;
+  width: 100px;
   height: 20px;
   cursor: pointer;
+  text-align: center; */
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 40%;
+  border-radius: 3rem;
+  height: 2.5rem;
+  background-color: black;
+  color: white;
 }
+/* margin: auto; */
 .close-plans,
 .close-calories,
 .close-subscribe {
@@ -98,8 +124,14 @@ td {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+.calories,
+.head {
+  color: white;
+  text-align: center;
+}
 .refresh,
-.test {
+.bt {
   margin-bottom: 1rem;
   margin-top: 1rem;
   font-size: 2rem;
@@ -108,7 +140,7 @@ td {
   width: 150px;
   height: 50px;
 }
-#details {
+.details {
   display: block;
   margin: auto;
   background-color: rgb(181, 114, 114);
@@ -117,7 +149,7 @@ td {
   color: inherit;
   font-size: 1.5rem;
   padding: 1%;
-  width: 30rem;
+  width: 40%;
   text-align: center;
   display: block;
   margin-bottom: 1rem;
@@ -151,6 +183,7 @@ td {
 }
 
 #footer {
+  width: 100%;
   padding-top: 1rem;
   margin-top: 15rem;
   background-color: rgb(54, 53, 53);
@@ -172,9 +205,8 @@ td {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
-
-  background-color: white;
+  width: 40%;
+  background-color: black;
   padding: 6rem;
   border-radius: 5px;
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
@@ -217,3 +249,10 @@ td {
     cursor: pointer;
   }
 } */
+.col-sm-4 {
+  background-color: rgb(171, 126, 171);
+  padding-top: 1rem;
+  border-radius: 1rem;
+  border-style: solid;
+  text-align: center;
+}
