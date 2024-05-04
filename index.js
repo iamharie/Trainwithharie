@@ -2,7 +2,7 @@
 
 // const gender = document.querySelector('.gender');
 // const gen = 'male';
-let gender = document.querySelector(".gender");
+const gender = document.querySelector(".gender");
 let age = document.querySelector(".age");
 
 //'Click button and BMI Logic'
@@ -11,10 +11,32 @@ document.querySelector(".btn").addEventListener("click", function () {
 
   console.log(typeof gender);
   //   console.log(age, typeof age);
-  //BMI Logic
-
-  if (weight > 0 && weight < 100) {
+  // New logic for the form start
+  //   if (
+  //     (gender === "male" && age <= 100) ||
+  //     (age <= 100 && weight > 1 && weight < 100)
+  //   ) {
+  //     let x = weight * 28.5;
+  //     document.querySelector(".calories").textContent = `Calories: ${x}/ day ~`;
+  //   } else {
+  //     // document.querySelector();
+  //     document.querySelector(".calories").textContent =
+  //       "You are missing on something";
+  //   }
+  // });
+  // end
+  // BMI Logic
+  if (
+    (weight > 0 && weight < 100 && gender.value === "Male") ||
+    gender.value === "male"
+  ) {
     let x = weight * 28.5;
+    document.querySelector(".calories").textContent = `Calories: ${x}/ day ~`;
+  } else if (
+    (weight > 0 && weight < 100 && gender.value === "Female") ||
+    gender.value === "female"
+  ) {
+    let x = weight * 24.5;
     document.querySelector(".calories").textContent = `Calories: ${x}/ day ~`;
   } else {
     // document.querySelector();
