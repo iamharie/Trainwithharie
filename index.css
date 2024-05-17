@@ -1,5 +1,6 @@
 body {
   background-color: whitesmoke;
+  font-family: "Inter";
 }
 .custom-container {
   width: 100%; /* Set your desired width */
@@ -26,6 +27,9 @@ body {
   text-align: center;
   color: white;
   margin-bottom: 2rem;
+}
+header {
+  margin-bottom: 10px;
 }
 header nav ul {
   list-style-type: none;
@@ -71,6 +75,7 @@ img {
   font-weight: 600;
 }
 .col-sm-4 {
+  /* align-items: center; */
   text-align: center;
 }
 .show-plans,
