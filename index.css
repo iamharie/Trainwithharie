@@ -58,7 +58,8 @@ td {
   border: 1px solid;
 }
 .show-plans,
-.show-fatLossPlans {
+.show-calories,
+.show-subscribe {
   font-size: 1.5rem;
   font-weight: 600;
   padding: 1.8rem 6.5rem;
@@ -72,7 +73,8 @@ td {
   cursor: pointer;
 }
 .close-plans,
-.close-fat {
+.close-calories,
+.close-subscribe {
   position: absolute;
   top: 1.2rem;
   right: 2rem;
@@ -150,15 +152,17 @@ td {
   color: #fff;
 }
 
-.hidden,
-.hide {
+.hidden1,
+.hidden2,
+.hidden3 {
   display: none;
 }
 
 /* Contest prep + flat loss + muscle building 
 --> How these button work when clicked */
-.modal,
-.mo {
+.modal1,
+.modal2,
+.modal3 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -171,8 +175,9 @@ td {
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
-.overlay,
-.ov {
+.overlay1,
+.overlay2,
+.overlay3 {
   position: absolute;
   top: 0;
   left: 0;
